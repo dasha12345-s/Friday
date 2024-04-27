@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: radial-gradient(#480f0f,#230101);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+button{
+  padding: 20px 40px;
+  font-size: 24px;
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  border: 2px solid #210202;
+  font-family: serif;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+}
+
+button:hover {
+  background-color: #c4a439;
+  box-shadow: 0 9px #c4a4396f
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  box-shadow: 0 9px #3e8e414f;
+}
+
+.image{
+  position: absolute;
+  top: 40%;
+  left: 39%;
+}
+
+p{
+  font-size: 200px;
+  margin-left: 1000pt;
+}
+
+.h1{
+  font-size: 200px;
+  margin-left: 100px;
+}
